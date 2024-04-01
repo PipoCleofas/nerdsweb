@@ -1,4 +1,4 @@
-function Socials(){
+export default function Socials(){
 
 
 

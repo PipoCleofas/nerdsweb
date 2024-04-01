@@ -3,7 +3,7 @@ import PastProjects from "../Components/PastProjects"
 import OurSkills from "../Components/OurSkills"
 import Socials from "../Components/Socials"
 
-function LandingPage() {
+export default function LandingPage() {
 
   return (
     <>
@@ -15,4 +15,4 @@ function LandingPage() {
   )
 }
 
-export default LandingPage
+
