@@ -1,4 +1,4 @@
-function OurSkills(){
+export default function OurSkills(){
 
 
     return(
