@@ -1,13 +1,16 @@
+import AboutMessage from "../Components/AboutMessage"
 
+
+/* Put Components for About Page here */
 
 export default function AboutPage(){
 
+    
 
     return(
         <>
-            <div>
-                <h1>Placheholder: About</h1>
-            </div>
+           <AboutMessage/>
+           
         </>
     )
 }
