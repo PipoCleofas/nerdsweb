@@ -22,7 +22,7 @@ namespace api.Data{
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")); 
+            optionsBuilder.UseMysql(Configuration.GetConnectionString("DefaultConnection")); 
             // add connection string in appsettings.json (postgreSQL)
         }
 
