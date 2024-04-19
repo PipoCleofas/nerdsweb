@@ -34,6 +34,8 @@ h1 {
   line-height: 1.1;
   text-align: center;
   text-decoration: underline;
+  margin:0;
+  padding: 0;
 }
 
 button {
@@ -136,7 +138,7 @@ button:focus-visible {
   color: white;
   margin-top: 50px;
   padding: 20px;
-  background-color: (rgb(156, 151, 151));
+  background-color: rgb((156, 151, 151));
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: Roboto, sans-serif;
@@ -154,6 +156,7 @@ button:focus-visible {
   line-height: 1.5;
   color:white;
 }
+
 
 #skillsMessage {
   text-align: center;
@@ -177,8 +180,12 @@ button:focus-visible {
   height: 75px;
   border-radius: 10px;
   margin: 5px;
+  transition: transform 0.3s ease;
 }
 
+#skills img:hover {
+  transform: scale(1.2);
+}
 
 #contactUs {
   font-size: 2em;
@@ -219,7 +226,7 @@ button:hover {
   padding: 20px;
   border-radius: 20px;
   background-color: white;
-  color: #5d4037; /* Set text color to a dark brown */
+  color: #5d4037;
 }
 
 #contactUs {
@@ -250,16 +257,53 @@ button:hover {
 }
 
 .form-container button {
-  display: block; /* Make the button a block element */
-  margin: 0 auto; /* Align button to center */
+  display: block; 
+  margin: 0 auto; 
   padding: 10px 20px;
-  background-color: #920101; /* Set button background color to a lighter red */
+  background-color: #920101;
   color: white;
   border: none;
-  border-radius: 20px; /* Set border radius to 20px */
+  border-radius: 20px; 
   cursor: pointer;
 }
 
 .form-container button:hover {
-  background-color: #f01111; /* Darken button background color on hover */
+  background-color: #f01111; 
+}
+
+#headingMessage {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#headingMessage h1 {
+  font-size: 2.5em;
+}
+
+#headingMessage p {
+  font-size: 1.2em;
+}
+
+#firstMessage{
+  font-size: 24px;
+}
+#secondMessage {
+  margin-bottom: 40px;
+}
+
+#secondMessage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#secondMessage ul li {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding-left: 1.5em;
+}
+
+#secondMessage ul li::before {
+  content: "•";
+  left: 0;
+  top: 0.2em;
 }

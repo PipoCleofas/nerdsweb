@@ -5,6 +5,7 @@ export default function OurSkills() {
           <div id="skillsMessage">
             <h1>Our Skills</h1>
           </div>
+          <br></br>
           <div id="skills">
             <img src="https://images-ext-1.discordapp.net/external/PD_h0qHQEcQ3DOY1DH5BrG_eSt0uxaLpSTdxeOKRJjY/%3Ff%3Dwebp%26w%3D256/https/cdn.iconscout.com/icon/free/png-512/free-javascript-2038874-1720087.png?format=webp&quality=lossless" alt="Skill 1" />
             <img src="https://images-ext-1.discordapp.net/external/zhkvHj_d6_nt6dLTXP6ipmQoJ5_v9JVbBIwvbXeHy3o/%3Ff%3Dwebp%26w%3D256/https/cdn.iconscout.com/icon/free/png-512/free-html5-42-1175210.png?format=webp&quality=lossless" alt="Skill 2" />
