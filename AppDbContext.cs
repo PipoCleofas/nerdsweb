@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using api.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Update;
+using MySql.Data.EntityFrameworkCore.DataAnnotations;
 
 namespace api.Data{
 
@@ -22,8 +23,8 @@ namespace api.Data{
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMysql(Configuration.GetConnectionString("DefaultConnection")); 
-            // add connection string in appsettings.json (postgreSQL)
+            optionsBuilder.UseMySQL(Configuration.GetConnectionString("DefaultConnection")); 
+            // add connection string in appsettings.json (mysql)
         }
 
         // keep our message
