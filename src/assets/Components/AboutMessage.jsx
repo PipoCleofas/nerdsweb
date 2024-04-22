@@ -1,4 +1,5 @@
 
+import "../utils/index.css"
 
 export default function AboutMessage(){
 

@@ -1,5 +1,6 @@
 
 import  '../Photos/logo.jpg'
+import "../utils/index.css"
 
 function FirstMessageAndLogo() {
 
